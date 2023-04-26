@@ -1,0 +1,147 @@
+Quản lý thư viện(Độc nhất-Administator)
+	(trùm full quyền)
+	(Sẽ tạo 3 tài khoản quản lý thư viện)
+	{
+		Mã (Khóa chính)
+		Mật khẩu
+		Tên 
+		SDT (10 số)
+		Địa chỉ
+		CMT (Không trùng)
+                Lương
+		Ngày sinh (Không lớn hơn ngày hiện tại)
+		Giới tính (Chỉ dc chọn nam và nữ)
+	}
+Thủ kho (Chỉ quản lý sách) 
+	{
+		Mã (Khóa chính)
+		Mật khẩu
+		Tên 
+		SDT (10 số)
+		Địa chỉ
+		CMT (Không trùng)
+                Lương
+		Ngày sinh (Không lớn hơn ngày hiện tại)
+		Giới tính (Chỉ dc chọn nam và nữ)
+	}
+
+Thủ thư(Nhập phiếu mượn - trả sách)
+	{
+		Mã (Khóa chính)
+		Mật khẩu
+		Tên 
+		SDT (10 số)
+		Địa chỉ
+		CMT (Không trùng)
+                Lương
+		Ngày sinh (Không lớn hơn ngày hiện tại)
+		Giới tính (Chỉ dc chọn nam và nữ)
+	}
+
+Sách
+	{
+		Mã (Khóa chính)
+		Tên sách 
+		Thể loại
+		Nhà xuất bản 
+		Năm xuất bản (Bé hơn thời điểm hiện tại)
+		Tác giả
+	}
+
+Độc giả(Thẻ chứa thông tin khách mượn)
+	{
+		Mã (Khóa chính)
+		Tên 
+		SDT (10 số)
+		Địa chỉ
+		CMT (Không trùng)
+		Ngày sinh (Không lớn hơn ngày hiện tại)
+		Giới tính (Chỉ dc chọn nam và nữ)
+	}
+
+Phiếu mượn(biên lai mượn sách)
+	{
+		Mã phiếu (Khóa chính)
+		Mã sách (Khóa phụ)
+		Tên sách 
+		Mã khách (Khóa phụ)
+		Tên khách 
+		Ngày mượn (Bé hơn ngày hiện tại)
+		Hạn trả (Lớn hơn ngày mượn và ngày hiện tại)
+		Số lượng (Lớn hơn hoặc bằng 1)
+		Tiền mượn 
+		Tiền cọc (Lơn hơn tiền mượn)
+	}
+
+phiếu trả{
+		Mã phiếu trả (Khóa chính)
+		Mã phiếu mượn
+		Mã độc giả
+		Ngày mượn
+		Hạn trả
+		Ngày trả
+	}
+1.view
+
+1.1.View độc giả mượn sách quá hạn nhưng chưa trả
+
+1.2.View Danh mục sách chưa từng có ai mượn
+
+1.3.view Danh mục sach đang có độc giả mượn
+
+1.4.View Hiển thị thông tin các cuốn sách của NXB "Giao dục"
+
+1.5.view Đưa ra thông tin gồm mã nv, họ tên và địa chỉ của tất cả các nhân viên
+
+1.6.view Đưa ra thông tin của các nhân viên(Thủ thư,thủ kho) có địa chỉ ở "Hà Nội"
+
+1.7.view đưa ra thông tin sách thuộc "Khoa CNTT" đang được mượn
+
+1.8.view đưa ra thông tin những độc giả đang mượn trên 5 cuốn sách
+
+1.9.view hiển thị thông tin độc giả mượn sách vào ngày 1/1/2021
+
+2.Trigger
+
+2.1.Tạo trigger quản lý thêm nhân viên mới vào ngày sinh của nhân viên không >= 45 tuổi 
+
+2.2.Tạo trigger hiển thị thông báo mỗi khi cập nhật thành công 1 bản ghi của bảng Độc giả 
+
+2.3.Tạo trigger tính tiền phạt 
+Nếu ngày trả chính thức <= hạn trả bỏ qua trigger
+Nếu ngày trả chính thức > hạn trả , thực hiện phạt tiền 1000 đồng/1 ngày trừ vào tiền cọc
+
+2.4.Tạo trigger kiểm tra nếu Thủ kho muốn sửa thông tin của độc giả thì không cho phép và hiển thị thông báo
+ 
+2.5.Tạo trigger kiểm tra nếu Thủ thư muốn sửa thông tin của sách thì không cho phép và hiển thị thông báo
+
+2.6. Tạo trigger để tránh xóa 2 bản ghi trong bảng Thủ thư,Thủ kho đồng thời.
+
+2.7.Tạo trigger đảm bảo rằng cột lương không được lớn hơn 100000000 và  ngày sinh không lớn hơn ngày hiện tại. 
+
+2.8.Tạo trigger để bắt lỗi nhập phiêu mượn sách , sô lượng sách > 0 
+nếu nhập sai hiển thị "So luong nhap khong dung xin moi nhap lai"
+
+2.9.Tạo trigger không cho độc giả mượn thêm sách nếu như độc giả đó đang mượn >=5 cuốn sách quá hạn chưa trả.
+
+3.Thủ tục
+
+3.1.Viết thủ tục hiển thị thông tin Thủ kho,Thủ thư  có lương cao nhất
+
+3.2.Viết một thủ tục để tính tổng số nhân viên(Thủ kho+Thủ thư)
+
+3.3.Viết một thủ tục để chuyển tất cả những nhân viên từ Thủ kho sang Thủ thư
+
+3.4.viết thủ tục trả về thông tin sách đã và đang được mượn nhiều nhất với Nhà xuất bản là tham số truyền vào.  
+
+3.5.viết thủ tục hiển thị danh sách tất cả độc giả có địa chỉ ở "Hà Nội"
+
+3.6.Viết thủ tục sửa thông tin độc giả
+
+3.7.viết thủ tục tính số độc giả mượn sách trong cùng 1 ngày
+
+3.8.viết thủ tục xóa sách trong kho
+
+3.9.viết thủ tục tính tổng số sách có năm xuất bản là "2000".
+
+

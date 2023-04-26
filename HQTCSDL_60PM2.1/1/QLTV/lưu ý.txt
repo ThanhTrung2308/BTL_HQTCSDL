@@ -1,0 +1,5 @@
+trigger 2.1 có thể tách thành 2trigger
+	2.3
+	2.4,2.5 kp trigger mà là phân quyền
+	2.6 tách dc thành 2 trigger
+	2.7 tách ra thành 3 trigger

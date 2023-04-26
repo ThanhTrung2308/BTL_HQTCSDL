@@ -1,0 +1,20 @@
+C:\Users\ACER\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\ACER\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\ACER\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\ACER\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\ACER\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\ACER\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\ACER\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\ACER\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\ACER\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\HQTCSDL\BTL\Hệ Quản Trị Cơ Sở Dữ Liệu\Học lại\HQTCSDL\qlKho\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\HQTCSDL\BTL\Hệ Quản Trị Cơ Sở Dữ Liệu\Học lại\HQTCSDL\qlKho\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\HQTCSDL\BTL\Hệ Quản Trị Cơ Sở Dữ Liệu\Học lại\HQTCSDL\qlKho\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\HQTCSDL\BTL\Hệ Quản Trị Cơ Sở Dữ Liệu\Học lại\HQTCSDL\qlKho\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+E:\HQTCSDL\BTL\Hệ Quản Trị Cơ Sở Dữ Liệu\Học lại\HQTCSDL\qlKho\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\HQTCSDL\BTL\Hệ Quản Trị Cơ Sở Dữ Liệu\Học lại\HQTCSDL\qlKho\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\HQTCSDL\BTL\Hệ Quản Trị Cơ Sở Dữ Liệu\Học lại\HQTCSDL\qlKho\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\HQTCSDL\BTL\Hệ Quản Trị Cơ Sở Dữ Liệu\Học lại\HQTCSDL\qlKho\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\HQTCSDL\BTL\Hệ Quản Trị Cơ Sở Dữ Liệu\Học lại\HQTCSDL\qlKho\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\HQTCSDL\BTL\Hệ Quản Trị Cơ Sở Dữ Liệu\Học lại\HQTCSDL\qlKho\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

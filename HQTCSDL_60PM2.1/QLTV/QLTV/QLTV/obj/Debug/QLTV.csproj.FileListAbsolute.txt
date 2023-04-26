@@ -1,0 +1,17 @@
+C:\Users\Dell\Desktop\qltv\QLTV\QLTV\bin\Debug\QLTV.exe.config
+C:\Users\Dell\Desktop\qltv\QLTV\QLTV\obj\Debug\QLTV.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Desktop\qltv\QLTV\QLTV\obj\Debug\QLTV.Login.resources
+C:\Users\Dell\Desktop\qltv\QLTV\QLTV\obj\Debug\QLTV.Properties.Resources.resources
+C:\Users\Dell\Desktop\qltv\QLTV\QLTV\obj\Debug\QLTV.ThuKho.resources
+C:\Users\Dell\Desktop\qltv\QLTV\QLTV\obj\Debug\QLTV.ThuThu.resources
+C:\Users\Dell\Desktop\qltv\QLTV\QLTV\obj\Debug\QLTV.csproj.GenerateResource.Cache
+C:\Users\Dell\Desktop\QLTV\QLTV\QLTV\bin\Debug\QLTV.exe
+C:\Users\Dell\Desktop\QLTV\QLTV\QLTV\bin\Debug\QLTV.pdb
+C:\Users\Dell\Desktop\QLTV\QLTV\QLTV\obj\Debug\QLTV.KhachHang.resources
+C:\Users\Dell\Desktop\QLTV\QLTV\QLTV\obj\Debug\QLTV.PhieuTra.resources
+C:\Users\Dell\Desktop\QLTV\QLTV\QLTV\obj\Debug\QLTV.QLPM.resources
+C:\Users\Dell\Desktop\QLTV\QLTV\QLTV\obj\Debug\QLTV.Quanly.resources
+C:\Users\Dell\Desktop\QLTV\QLTV\QLTV\obj\Debug\QLTV.ThemKhachHang.resources
+C:\Users\Dell\Desktop\QLTV\QLTV\QLTV\obj\Debug\QLTV.ThemNhanVien.resources
+C:\Users\Dell\Desktop\QLTV\QLTV\QLTV\obj\Debug\QLTV.exe
+C:\Users\Dell\Desktop\QLTV\QLTV\QLTV\obj\Debug\QLTV.pdb

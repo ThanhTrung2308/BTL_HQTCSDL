@@ -1,0 +1,24 @@
+TRIGGER: 
+-Trigger để đảm bảo rằng khi sửa hoặc một loại mặt hàng trong bảng MatHang 
+ thì tên mặt hàng sau khi sửa phải khác tên loại mặt hàng trước khi sửa và 
+ tên loại mặt hàng sau khi sửa không trùng với tên các loại hàng đã có trong bảng.
+-Trigger tính tổng Tiền giá nhập của 
+ từng mã hàng (TongGiaNhap) khi thêm hoặc update dữ liệu
+-Trigger tính tổng Tiền giá xuất của 
+ từng mã hàng (TongGiaXuat) khi thêm hoặc update dữ liệu
+-Trigger không cho cập nhật dữ liệu Phieu Nhap
+-Trigger không cho cập nhật dữ liệu Phieu Xuat
+VIEW:
+-Viết View V_ChiTietPhieuNhap gồm ID_NV, TenNV,ID_PN, NgayNhap, ID_TTPN, IDMH, TenMH,ID_NCC, TenNCC
+-View chứa thông tin khách hàng hợp tác trên 5 năm, thông tin lịch sử mua hàng
+-View chứa thông tin Mặt Hàng Xuất từ tháng 1/2019 đến tháng 1/2020 
+-View chứa thông tin tổng số lượng nhập/xuất của các mặt hàng
+PROCEDUCE:
+-Viết Procedure tìm kiếm Nhà cung cấp theo Mã nhà cung cấp
+-Viết Procedure để insert, update, delete vào bảng Nhân Viên
+-Viết Procedure lấy ra số lượng nhập của một mã hàng bất kì trong năm bất kì
+-Viết Procedure lấy ra số lượng tồn của mỗi mặt hàng
+FUNCTION:
+-Viết Function trả về số lượng nhập của một mặt hàng bất kì trong khoảng thời gian nhập bất kì
+-Viết Function trả về danh sách Khách hàng mua một mặt hàng bất kì
+-Viết Function tính tổng tiền của một đơn nhập bất kì của năm bất kì
